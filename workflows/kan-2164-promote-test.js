@@ -1,0 +1,1 @@
+export default async function(ctx) { return { ok: true, v: 2 }; }
