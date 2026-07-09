@@ -1,0 +1,1 @@
+export default async function(ctx){ let x=0; for(let i=0;i<5e9;i++){ x=(x+i)%1000000; } return { x }; }
