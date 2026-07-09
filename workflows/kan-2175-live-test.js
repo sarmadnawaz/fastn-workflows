@@ -1,1 +1,1 @@
-export default async function(ctx) { return { ok: true, v: 2, feature: "kan-2175" }; }
+export default async function(ctx) { return { ok: true, v: 1, feature: "kan-2175", reviewerFixup: true }; }
