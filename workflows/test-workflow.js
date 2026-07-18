@@ -1,5 +1,5 @@
 export default async function(ctx) {
   const { input, headers } = ctx;
   // Your workflow logic here
-  return { result: "Hello from workflow!", input };
+  return { result: "Updated the message!", input };
 }
