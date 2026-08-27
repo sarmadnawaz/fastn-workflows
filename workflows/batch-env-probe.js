@@ -1,5 +1,5 @@
 export default async function (ctx) {
-  // Batch-runner environment probe. The Cloud Run job runs the same user code as
+  // Batch-runner environment probe. The Cloud Run job runs the same user code as (checking)
   // the workers but receives none of the cluster's configmap, so a missing env
   // var degrades silently to a wrong code default rather than failing loudly.
   // This exercises the two capabilities that break that way.
